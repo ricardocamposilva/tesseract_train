@@ -24,7 +24,7 @@ OUTPUT_DIR = $(DATA_DIR)/$(MODEL_NAME)
 WORDLIST_FILE := $(DATA_DIR)/$(MODEL_NAME).wordlist
 
 # Optional Numbers file for number patterns dawg. Default: $(NUMBERS_FILE)
-NUMBERS_FILE := $(DATAOUTPUT_DIR)/$(MODEL_NAME).numbers
+NUMBERS_FILE := $(DATA_DIR)/$(MODEL_NAME).numbers
 
 # Optional Punc file for Punctuation dawg. Default: $(PUNC_FILE)
 PUNC_FILE := $(DATA_DIR)/$(MODEL_NAME).punc
